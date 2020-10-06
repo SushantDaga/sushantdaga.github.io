@@ -6,7 +6,7 @@ $(function() {
       "><span class='caret'>$</span> skills: Deep Learning, Natural Language Processing, Computer Vision, Python, AWS, SQL ...<br/> ^100" +
       "><span class='caret'>$</span> job: Data Scientist at <a href='https://www.vmock.com/'>Vmock</a><br/> ^100" +
       "><span class='caret'>$</span> hobbies: Reading, Dancing, <a href='/writing'>Writing</a>, Badminton, TT<br/> ^300" +
-      "><span class='caret'>$</span> miscellaneous: Research &amp Data oriented, Experiment ready, Business minded <br/>"
+      "><span class='caret'>$</span> miscellaneous: Research &amp; Data oriented, Experiment ready, Business minded <br/>"
     ],
     showCursor: true,
     cursorChar: '_',
