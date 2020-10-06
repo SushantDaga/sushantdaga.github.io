@@ -3,9 +3,9 @@ $(function() {
   $(".typed").typed({
     strings: [
       "stat sushant.daga<br/>" + 
-      "><span class='caret'>$</span> skills: Deep Learning, Natural language Processing, Research-oriented, Python, AWS, SQL ...<br/> ^100" +
+      "><span class='caret'>$</span> skills: Deep Learning, Natural Language Processing, Computer Vision, Research-oriented, Python, AWS, SQL ...<br/> ^100" +
       "><span class='caret'>$</span> job: Data Scientist at <a href='https://www.vmock.com/'>Vmock</a><br/> ^100" +
-      "><span class='caret'>$</span> hobbies: Reading, Dancing, Writing <a href='/writing'>writing</a><br/> ^300"
+      "><span class='caret'>$</span> hobbies: Reading, Dancing, <a href='/writing'>Writing</a><br/> ^300"
     ],
     showCursor: true,
     cursorChar: '_',
