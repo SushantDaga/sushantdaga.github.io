@@ -5,7 +5,7 @@ $(function() {
       "stat sushant.daga<br/>" + 
       "><span class='caret'>$</span> skills: Deep Learning, Natural Language Processing, Computer Vision, Python, AWS, SQL ...<br/> ^100" +
       "><span class='caret'>$</span> job: Data Scientist at <a target='_blank' href='https://www.vmock.com/'>Vmock</a><br/> ^100" +
-      "><span class='caret'>$</span> hobbies: Reading, Dancing, <a href='/writing'>Writing</a>, Badminton, TT<br/> ^300" +
+      "><span class='caret'>$</span> hobbies: Reading, Dancing, <a target='_blank' href='/writing'>Writing</a>, Badminton, TT<br/> ^300" +
       "><span class='caret'>$</span> miscellaneous: Research &amp; Data oriented, Experiment ready, Business minded <br/>"
     ],
     showCursor: true,
