@@ -2,6 +2,7 @@
 layout: home
 title: Recuurent Instance segmentation
 tags: segmentation recurrent-neural-network LSTM
+permalink: /projects/recurrent-segmentation
 ---
 
 > Hi, this is a simple test. Excerpt this is.

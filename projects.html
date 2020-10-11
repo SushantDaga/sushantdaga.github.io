@@ -1,24 +1,16 @@
+---
+layout: project_base
+---
 
-<!DOCTYPE html>
-<html lang="en">
-
-
-{% include head.html %}
-
-<body>
-    {% include navigation.html %}
-    (% for proj in site.projects %}
-        <li>
-            <a href="{{ proj.url }}">{{ proj.title }}</a>
-            {% if proj.excerpt %}
-                {{ proj.excerpt }}
-            {% endif %}
-            {% if proj.tags %}
-                {% for tag in proj.tags %}
-                    {% capture tag_name %}{{ tag }}{% endcapture %}
-            {% endif %}
-        </li>
-</body>
-
-<!DOCTYPE html>
-<html lang="en">
+{% include navigation.html %}
+(% for proj in site.projects %}
+    <li>
+        <a href="{{ proj.url }}">{{ proj.title }}</a>
+        {% if proj.excerpt %}
+            {{ proj.excerpt }}
+        {% endif %}
+        {% if proj.tags %}
+            {% for tag in proj.tags %}
+                {% capture tag_name %}{{ tag }}{% endcapture %}
+        {% endif %}
+    </li>
