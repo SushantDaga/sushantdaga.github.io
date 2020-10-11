@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Recuurent Instance segmentation
+layout: project_page
+title: Recurrent Instance segmentation
 tags: segmentation recurrent-neural-network LSTM
 permalink: /projects/recurrent-segmentation
 ---
