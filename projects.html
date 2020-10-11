@@ -2,7 +2,7 @@
 layout: project_base
 ---
 
-(% for proj in site.projects %}
+{% for proj in site.projects %}
     <li>
         <a href="{{ proj.url }}">{{ proj.title }}</a>
         {% if proj.excerpt %}
@@ -11,5 +11,7 @@ layout: project_base
         {% if proj.tags %}
             {% for tag in proj.tags %}
                 {% capture tag_name %}{{ tag }}{% endcapture %}
+            {% endfor %}
         {% endif %}
     </li>
+{% endfor %}
