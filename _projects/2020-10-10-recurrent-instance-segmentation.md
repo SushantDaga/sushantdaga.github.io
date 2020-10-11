@@ -1,5 +1,5 @@
 ---
-layout: project_page
+layout: project_base
 title: Recurrent Instance segmentation
 tags: segmentation recurrent-neural-network LSTM
 permalink: /projects/recurrent-segmentation
