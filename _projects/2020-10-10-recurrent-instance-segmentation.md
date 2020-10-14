@@ -18,4 +18,4 @@ Implemented *Recurrent Instance Segmentation* by Bernardino Romera-Paredes et al
 
 <!--more-->
 
-[alt text](https://github.com/SushantDaga/sushantdaga.github.io/tree/posts/assets/images/recurrent-instance-segmentation.png)
+![alt text](https://github.com/SushantDaga/sushantdaga.github.io/tree/posts/assets/images/recurrent-instance-segmentation.png)
