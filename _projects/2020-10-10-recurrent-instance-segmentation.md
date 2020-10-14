@@ -3,6 +3,7 @@ layout: project_base
 title: Recurrent Instance segmentation
 tags: segmentation recurrent-neural-network LSTM
 permalink: /projects/recurrent-segmentation
+thumbnail: https://github.com/SushantDaga/sushantdaga.github.io/tree/posts/assets/images/recurrent-instance-segmentation.png
 <!-- publish: false -->
 ---
 
@@ -12,9 +13,9 @@ Implemented *Recurrent Instance Segmentation* by Bernardino Romera-Paredes et al
 * Recurrent Neural Network and Attention-based models
 * ConvLSTM
 * Keras Functional API vs Sequential API (partial towards the former :P)
-* Writing your own trainable layers in Keras
+* Writing your own trainable and non-trainable layers in Keras
 
 
 <!--more-->
 
-Blah blah blah
+[alt text](https://github.com/SushantDaga/sushantdaga.github.io/tree/posts/assets/images/recurrent-instance-segmentation.png)
