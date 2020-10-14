@@ -13,3 +13,8 @@ Implemented *Recurrent Instance Segmentation* by Bernardino Romera-Paredes et al
 * ConvLSTM
 * Keras Functional API vs Sequential API (partial towards the former :P)
 * Writing your own trainable layers in Keras
+
+
+<!--more-->
+
+Blah blah blah
