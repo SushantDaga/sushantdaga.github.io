@@ -3,7 +3,7 @@ layout: project_base
 title: Recurrent Instance segmentation
 tags: segmentation recurrent-neural-network LSTM
 permalink: /projects/recurrent-segmentation
-thumbnail: https://github.com/SushantDaga/sushantdaga.github.io/tree/posts/assets/images/recurrent-instance-segmentation.png
+thumbnail: https://github.com/SushantDaga/sushantdaga.github.io/blob/posts/assets/images/recurrent-instance-segmentation.png
 <!-- publish: false -->
 ---
 
@@ -18,4 +18,4 @@ Implemented *Recurrent Instance Segmentation* by Bernardino Romera-Paredes et al
 
 <!--more-->
 
-![alt text](https://github.com/SushantDaga/sushantdaga.github.io/tree/posts/assets/images/recurrent-instance-segmentation.png)
+![alt text](https://github.com/SushantDaga/sushantdaga.github.io/blob/posts/assets/images/recurrent-instance-segmentation.png)
