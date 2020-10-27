@@ -3,8 +3,7 @@ layout: project_base
 title: Recurrent Instance segmentation
 tags: segmentation recurrent-neural-network LSTM
 permalink: /projects/recurrent-segmentation
-thumbnail: https://github.com/SushantDaga/sushantdaga.github.io/blob/posts/assets/images/recurrent-instance-segmentation.png
-<!-- publish: false -->
+thumbnail: /assets/images/recurrent-instance-segmentation.png
 ---
 
 
