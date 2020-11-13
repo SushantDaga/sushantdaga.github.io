@@ -1,6 +1,6 @@
 ---
 layout: project_base
-title: Real Time On stage Speaker Detection
+title: Few shot face classification with fewer false positives
 tags: segmentation recurrent-neural-network LSTM
 permalink: /projects/traget-list-classification
 <!-- thumbnail: /assets/images/recurrent-instance-segmentation.png -->
