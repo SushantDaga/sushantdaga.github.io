@@ -18,5 +18,7 @@ flask, python, TorchScript, C++ inferences, rasa, mutli-lingual - french,
 websocket (socket.io), siamese, 
 
 fast-api, sanic, 
+github workflows 
+
 
 <!--more-->
