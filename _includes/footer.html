@@ -1,0 +1,13 @@
+<footer class="site-footer" id="contact">
+  <p class="footer-eyebrow">Contact</p>
+  <ul class="footer-links">
+    {% if site.author.email_user and site.author.email_domain %}<li><a class="email-link" href="#contact" data-u="{{ site.author.email_user }}" data-d="{{ site.author.email_domain }}" title="Email">Email<noscript> ({{ site.author.email_user }} [at] {{ site.author.email_domain | replace: ".", " [dot] " }})</noscript></a></li>{% endif %}
+    {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="me noopener">GitHub</a></li>{% endif %}
+    {% if site.author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="me noopener">LinkedIn</a></li>{% endif %}
+    {% if site.author.x %}<li><a href="https://x.com/{{ site.author.x }}" target="_blank" rel="me noopener">X / Twitter</a></li>{% endif %}
+    {% if site.author.scholar and site.author.scholar != "" %}<li><a href="{{ site.author.scholar }}" target="_blank" rel="me noopener">Google Scholar</a></li>{% endif %}
+    {% if site.links.biclay %}<li><a href="{{ site.links.biclay }}" target="_blank" rel="noopener">Biclay</a></li>{% endif %}
+    {% if site.links.citeonly %}<li><a href="{{ site.links.citeonly }}" target="_blank" rel="noopener">CiteOnly</a></li>{% endif %}
+  </ul>
+  <p class="footer-fine">&copy; Sushant Daga. Built with Jekyll, typeset in STIX Two Text.</p>
+</footer>

@@ -1,0 +1,26 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# {{ site.author.name }}
+
+> {{ site.description }}
+
+This is {{ site.author.name }}'s personal site: a short bio, career history, and occasional writing. Sushant founded Biclay (https://biclay.com) and is building CiteOnly (https://citeonly.com), a question-answering system that only returns passages from the user's own documents, with sources.
+
+## Pages
+
+- [Home]({{ site.url }}/): Photo and short bio.
+- [Career]({{ site.url }}/career/): Roles, projects, and education, most recent first.
+- [Writing]({{ site.url }}/writing/): Notes and posts, filterable by tag.
+
+## Contact
+
+- Email: in the footer of every page (assembled in the browser, so it is not written here)
+{% if site.author.github %}- GitHub: https://github.com/{{ site.author.github }}
+{% endif %}{% if site.author.linkedin %}- LinkedIn: https://www.linkedin.com/in/{{ site.author.linkedin }}/
+{% endif %}{% if site.author.x %}- X/Twitter: https://x.com/{{ site.author.x }}
+{% endif %}
+{% if site.links.biclay %}- Biclay (company): {{ site.links.biclay }}
+{% endif %}{% if site.links.citeonly %}- CiteOnly (product): {{ site.links.citeonly }}
+{% endif %}

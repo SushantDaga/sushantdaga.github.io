@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="paper paper-narrow">
+  <h1 class="page-title">Career</h1>
+  <div class="post-body">{{ content }}</div>
+
+  {% if site.data.work and site.data.work.size > 0 %}
+  <ol class="work-list">
+    {% for role in site.data.work %}
+    <li class="work-item">
+      <div class="work-what">
+        <h3>{% if role.url and role.url != "" %}<a href="{{ role.url }}" target="_blank" rel="noopener">{{ role.title }}</a>{% else %}{{ role.title }}{% endif %}</h3>
+        <p class="work-org">{{ role.org }}</p>
+        <p class="work-summary">{{ role.summary }}</p>
+        {% if role.tags %}
+        <ul class="tag-list">
+          {% for tag in role.tags %}<li>{{ tag }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="empty-note">Nothing listed yet.</p>
+  {% endif %}
+</article>

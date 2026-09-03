@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="paper">
+
+  <section class="hero">
+    <p class="hero-kicker">Sushant Daga</p>
+    {% if page.role %}<h1 class="hero-role">{{ page.role }}</h1>{% endif %}
+
+    <div class="hero-grid">
+      <figure class="portrait" data-reveal>
+        <img src="{{ page.photo | default: '/assets/images/photo.jpg' | relative_url }}" alt="Portrait of Sushant Daga" width="360" height="360">
+      </figure>
+
+      <div class="abstract" data-reveal>
+        <div class="abstract-body">
+          {{ content }}
+        </div>
+        <p class="hero-links"><a href="{{ '/career/' | relative_url }}">Career &rarr;</a> &nbsp; <a href="{{ '/writing/' | relative_url }}">Writing &rarr;</a></p>
+      </div>
+    </div>
+  </section>
+
+</article>

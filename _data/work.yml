@@ -1,0 +1,46 @@
+# Career — rendered on /career/ by _layouts/career.html, most recent first.
+# No years anywhere: the owner's rule of 2026-09-03 (STANDARD.md C1). Order carries recency.
+# Each entry:
+#   title:   role
+#   org:     organization
+#   summary: one or two sentences — scope and outcome, not a task list
+#   tags:    short lowercase labels
+#   url:     optional link
+# Numbers come from the CV in ../career-ops/cv.md (plus the CiteOnly update,
+# 2026-09); keep them in sync with it rather than editing figures here.
+
+- title: "Founder"
+  org: "Biclay · CiteOnly"
+  summary: "Building CiteOnly, an AI that cannot make things up. It generates only citations, word for word from the user's own documents, each with its source beside it, and has no free-generation step. In development and running pilots."
+  tags: [retrieval, local LLMs, product]
+  url: "https://citeonly.com"
+
+- title: "AI Lead"
+  org: "Biclay Labs"
+  summary: "Applied-ML consulting: local LLM and vision-language agents at real-time p90 latency, RAG systems with faithfulness requirements (hallucinations cut by 72%, agent accuracy up 22–53%), document agents reranking 10k documents per query, and fine-tuning, continual pre-training, and self-hosted deployment on AWS and Google Cloud under cost constraints."
+  tags: [RAG, local LLMs, agents, fine-tuning]
+  url: "https://biclay.com"
+
+- title: "Senior Deep Learning Engineer"
+  org: "NanoNets"
+  summary: "Core ML for the document-understanding stack (key-information extraction, visual QA, tables). Continual pre-training of a multi-modal LLM on millions of documents (text plus 2D layout) for a ~13% accuracy gain, a novel generative architecture for structured key-value extraction shipped to production, and multi-adapter batching seven months before any similar open-source release."
+  tags: [multi-modal LLMs, continual pre-training, VLM fine-tuning, inference]
+  url: ""
+
+- title: "Senior Data Scientist"
+  org: "VMock"
+  summary: "Led NLG capabilities and NLP inference: 4–330× throughput across more than 20 models and >80% inference-cost reduction across six teams' products. Pseudo-label generation for seq2seq tasks two years before LLM synthetic data became common; distributed training of Distil-GPT on ~1B tokens and a 17× compression for in-browser smart compose; a Transformer NMT model 15× smaller than mBART at +2.7 BLEU on En–Fr."
+  tags: [inference optimization, NLG, distillation, NMT]
+  url: ""
+
+- title: "Data Scientist"
+  org: "VMock"
+  summary: "ML engineering across projects: cut labelling-error detection from a week to hours with a smart solver for Customer Success, and built a lightweight Redis CRUD ORM for exact search on tabular caches, adopted by three teams."
+  tags: [ML engineering]
+  url: ""
+
+- title: "B.Tech, Electrical Engineering"
+  org: "IIT Delhi"
+  summary: "All India Rank 242 of 1.3 million in IIT-JEE. Projects on FaceNet embedding-manifold analysis, recurrent instance segmentation, speech recognition and on-stage speaker verification, and CNN-based invoice field extraction."
+  tags: []
+  url: ""

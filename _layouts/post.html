@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div class="post-layout">
+  <nav class="post-toc" aria-label="Table of contents" data-toc>
+    <p class="post-toc-label">On this page</p>
+    <ol data-toc-list></ol>
+  </nav>
+
+  <article class="paper post-article">
+    <p class="back-link"><a href="{{ '/writing/' | relative_url }}">&larr; Writing</a></p>
+    <header class="post-head">
+      <h1>{{ page.title }}</h1>
+      {% if page.tags %}
+      <ul class="tag-list">{% for tag in page.tags %}<li><a href="{{ '/writing/' | relative_url }}#{{ tag }}">{{ tag }}</a></li>{% endfor %}</ul>
+      {% endif %}
+    </header>
+    <div class="post-body" data-post-body>
+      {{ content }}
+    </div>
+
+    {% if page.related %}
+    <section class="related-block" aria-label="Related posts">
+      <p class="related-label">Related</p>
+      <ul class="related-list">
+        {% for slug in page.related %}
+          {% assign rp = site.posts | where: "slug", slug | first %}
+          {% if rp %}<li><a href="{{ rp.url | relative_url }}">{{ rp.title }}</a></li>{% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% unless page.published == false %}
+    {% assign slug = page.slug %}
+    {% assign bibkey = "daga-" | append: slug %}
+    <section class="cite-block" aria-label="Citation">
+      <p class="cite-label">Cite as</p>
+      <p class="cite-line">Daga, S. <em>{{ page.title }}</em>. {{ site.title }}. {{ page.url | absolute_url }}</p>
+      <pre class="cite-bibtex"><code>@misc{ {{- bibkey -}},
+  author = {Daga, Sushant},
+  title  = { {{- page.title -}} },
+  url    = { {{- page.url | absolute_url -}} },
+  note   = {Personal website}
+}</code></pre>
+    </section>
+    {% endunless %}
+  </article>
+</div>

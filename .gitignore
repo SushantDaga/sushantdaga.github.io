@@ -1,0 +1,16 @@
+_site
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+Gemfile.lock
+.claude/
+.DS_Store
+# Local-only: working notes and unpublished drafts never go to the public repo.
+CLAUDE.md
+_drafts/
+# Review tooling and the notes it writes (see CLAUDE.md, "Collecting feedback").
+tools/
+FEEDBACK.md
+FEEDBACK.json
+STANDARD.md
+REVIEW.md

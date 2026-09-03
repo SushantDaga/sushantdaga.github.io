@@ -1,0 +1,78 @@
+title: Sushant Daga
+tagline: Founder, Biclay · building CiteOnly
+description: >-
+  Personal site of Sushant Daga, founder of Biclay and builder of CiteOnly: bio, career, and writing.
+url: "https://sushantdaga.com"
+baseurl: ""
+
+author:
+  name: Sushant Daga
+  # Email is never written into the HTML as one string: the footer carries the two halves
+  # in data attributes and main.js assembles the mailto and the visible address on load,
+  # so scrapers reading the source see no "@" and no mailto. Owner's ask, 2026-09-03.
+  email_user: "sushant"
+  email_domain: "biclay.com"
+  github: SushantDaga
+  linkedin: "sushant-daga"
+  x: daga_sushant
+  scholar: ""
+
+# Company and product, linked from the footer and the bio.
+links:
+  biclay: "https://biclay.com"
+  citeonly: "https://citeonly.com"
+
+excerpt_separator: <!--more-->
+
+# All posts live under /writing/<slug>/ — without this, Jekyll falls back to
+# its default /:year/:month/:day/:title.html pattern.
+permalink: /writing/:slug/
+
+# Posts are dated same-day with different times purely to control display order
+# (Jekyll sorts newest-first); without this, any post timestamped later in the
+# day than the actual build time is silently excluded.
+future: true
+
+# Pin an explicit timezone so post dates render consistently regardless of
+# which machine builds the site — otherwise Jekyll formats dates using the
+# build machine's local timezone, which can shift a post's displayed calendar
+# date across midnight relative to the UTC offset in its front matter.
+timezone: UTC
+
+# The github-pages gem defaults to theme jekyll-theme-primer, whose assets/css/style.scss
+# compiled onto the same output path as this site's own stylesheet (now assets/css/site.css)
+# and won on some regenerations — the "unstyled site" bug. No theme is wanted here.
+theme: null
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from   # old-site URLs redirect to their new homes (see index/career/writing front matter)
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CLAUDE.md
+  - serve.sh
+  - tools
+  - FEEDBACK.md
+  - FEEDBACK.json
+  - STANDARD.md
+  - REVIEW.md
