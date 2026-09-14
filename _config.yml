@@ -1,7 +1,7 @@
 title: Sushant Daga
-tagline: Founder, Biclay · building CiteOnly
+tagline: Founder, CiteOnly
 description: >-
-  Personal site of Sushant Daga, founder of Biclay and builder of CiteOnly: bio, career, and writing.
+  Personal site of Sushant Daga, founder of CiteOnly: bio, career, and writing.
 url: "https://sushantdaga.com"
 baseurl: ""
 
@@ -11,15 +11,14 @@ author:
   # in data attributes and main.js assembles the mailto and the visible address on load,
   # so scrapers reading the source see no "@" and no mailto. Owner's ask, 2026-09-03.
   email_user: "sushant"
-  email_domain: "biclay.com"
+  email_domain: "citeonly.com"
   github: SushantDaga
   linkedin: "sushant-daga"
   x: daga_sushant
   scholar: ""
 
-# Company and product, linked from the footer and the bio.
+# The company, linked from the footer and the bio. Earlier work is named on /career/ and not linked.
 links:
-  biclay: "https://biclay.com"
   citeonly: "https://citeonly.com"
 
 excerpt_separator: <!--more-->

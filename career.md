@@ -10,5 +10,5 @@ redirect_from:
   - /projects/traget-list-classification
   - /projects/virtual-assistant
   - /projects.html
-description: "Sushant Daga's career: founder of Biclay building CiteOnly, applied-ML consulting at Biclay Labs, core ML at NanoNets, NLP inference and generation at VMock, and IIT Delhi."
+description: "Sushant Daga's career: founder of CiteOnly, and before it applied-ML consulting at Biclay Labs, core ML at NanoNets, NLP inference and generation at VMock, and IIT Delhi."
 ---

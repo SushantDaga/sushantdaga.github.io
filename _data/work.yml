@@ -10,7 +10,7 @@
 # 2026-09); keep them in sync with it rather than editing figures here.
 
 - title: "Founder"
-  org: "Biclay · CiteOnly"
+  org: "CiteOnly"
   summary: "Building CiteOnly, an AI that cannot make things up. It generates only citations, word for word from the user's own documents, each with its source beside it, and has no free-generation step. In development and running pilots."
   tags: [retrieval, local LLMs, product]
   url: "https://citeonly.com"
@@ -19,7 +19,7 @@
   org: "Biclay Labs"
   summary: "Applied-ML consulting: local LLM and vision-language agents at real-time p90 latency, RAG systems with faithfulness requirements (hallucinations cut by 72%, agent accuracy up 22–53%), document agents reranking 10k documents per query, and fine-tuning, continual pre-training, and self-hosted deployment on AWS and Google Cloud under cost constraints."
   tags: [RAG, local LLMs, agents, fine-tuning]
-  url: "https://biclay.com"
+  url: ""
 
 - title: "Senior Deep Learning Engineer"
   org: "NanoNets"

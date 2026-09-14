@@ -6,7 +6,7 @@ permalink: /llms.txt
 
 > {{ site.description }}
 
-This is {{ site.author.name }}'s personal site: a short bio, career history, and occasional writing. Sushant founded Biclay (https://biclay.com) and is building CiteOnly (https://citeonly.com), a question-answering system that only returns passages from the user's own documents, with sources.
+This is {{ site.author.name }}'s personal site: a short bio, career history, and occasional writing. Sushant founded CiteOnly (https://citeonly.com), an AI that cannot make things up: it generates only citations, word for word from the user's own documents, each with its source beside it, and has no free-generation step.
 
 ## Pages
 
@@ -21,6 +21,5 @@ This is {{ site.author.name }}'s personal site: a short bio, career history, and
 {% endif %}{% if site.author.linkedin %}- LinkedIn: https://www.linkedin.com/in/{{ site.author.linkedin }}/
 {% endif %}{% if site.author.x %}- X/Twitter: https://x.com/{{ site.author.x }}
 {% endif %}
-{% if site.links.biclay %}- Biclay (company): {{ site.links.biclay }}
-{% endif %}{% if site.links.citeonly %}- CiteOnly (product): {{ site.links.citeonly }}
+{% if site.links.citeonly %}- CiteOnly: {{ site.links.citeonly }}
 {% endif %}
